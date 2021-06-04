@@ -7,7 +7,7 @@ popis: jídlo
 tags: ['restaurants']
 ---
 
-### Kočičí kavárna
+### Kočičí kavárna v Brně
 
 Pelíšek je unikátní koncept kočičí kavárny, pokud se vám totiž nějaká kočička zalíbí, můžete ji adoptovat. Podlě mě je tento nápad, jak pomoci opuštěným zvířatům perfektní. 
 
