@@ -6,13 +6,14 @@
     bottom: 0;
     display: flex;
     justify-content: center;
+    display: wrap;
     width: 100vw;
     height: 60px;
     padding: 20px;
     background-color: colors.$c-background;
 
     .footer-text {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .footer-icons {
