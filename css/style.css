@@ -118,7 +118,7 @@ body {
 }
 
 .about-me, .news {
-  margin: 90px auto;
+  margin: 20px auto;
   padding: 20px;
 }
 .about-me h2, .news h2 {
@@ -214,7 +214,7 @@ body {
   height: 100%;
 }
 .article .article-text {
-  padding: 10px;
+  padding: 20px;
 }
 @media screen and (min-width: 900px) {
   .article .article-text {
