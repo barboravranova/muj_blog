@@ -1,0 +1,34 @@
+---
+layout: layouts/main-structure.njk
+---
+
+<main class="main">
+
+	<article class="article">
+
+	<h1 class="article-title">{{ title }}</h1>
+
+	<p class="article-meta">Publikováno {{ page.date.toLocaleString('cs-CZ') }}</p>
+
+	<div class="article-content">
+
+        <div class="article-photo">
+
+			<img src="/images/{{ foto }}" alt="{{ popis }}">
+
+		</div>
+
+		<div class="article-text">
+
+			{{content | safe}}
+
+		</div>
+
+	</main>
+
+
+	</div>
+
+</article>
+
+

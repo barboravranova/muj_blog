@@ -1,0 +1,32 @@
+---
+layout: layouts/main-structure.njk
+title: Kam na výlet
+---
+
+<main class="main">
+
+    <section class="welcome welcome-trips">
+
+    </section>
+
+    <section class="articles">
+
+        {% for post in collections.trips %}
+        
+        <div class="article-post">
+            <div class="article-post-photo">
+                <img src="/images/{{ post.data.foto }}">
+            </div>
+        
+            <div class="article-post-content">
+                <h3>{{ post.data.title }}</h3>
+                <p>{{ post.data.perex }}</p>
+                <p><a class="hover-set" href = "{{ post.url }}">číst →</a></p>
+            </div>
+            
+        </div>
+        {% endfor %}
+        
+    </section>
+
+</main>
